@@ -1,4 +1,4 @@
-wkhtmltopdf-windows-64bit
+wkhtmltox-windows-64bit
 ================
 
 This Repo contains the Windows (MSVC 2013) Binaries for Windows Vista or later; bundles VC++ Runtime 2013.
@@ -19,7 +19,7 @@ Non Framework [github.com/wemersonjanuario/pdf](https://github.com/wemersonjanua
 
 _Hint_:
 The version of the binary is equal to the git tag.
-To install the latest version, use '0.12.2.3'.
+To install the latest version, use '0.12.2.4'.
 
 In case this package does _not_ work on your system, try installing the matching system packages from here: [http://wkhtmltopdf.org/downloads.html](http://wkhtmltopdf.org/downloads.html).
 
@@ -29,13 +29,14 @@ This package can be found on [Packagist](http://packagist.org) and installed wit
 
 Require the package for Windows with:
 
-    php composer.phar require wemersonjanuario/wkhtmltopdf-windows-64bit "0.12.2.3"
+    php composer.phar require wemersonjanuario/wkhtmltopdf-windows-64bit "0.12.2.4"
 
 
 The binaries will then be located at:
 
-    vendor/wemersonjanuario/wkhtmltopdf-windows-64bit/bin
+    vendor/wemersonjanuario/wkhtmltox-windows-64bit/bin
 
 Also a symlink will be created in your configured bin/ folder, for example:
 
     vendor/bin/wkhtmltopdf.exe.bat
+	vendor/bin/wkhtmltoimage.exe.bat
